@@ -98,3 +98,14 @@ function animate() \{\
 \}\
 \
 animate();}
+
+console.log("Camera position:", camera.position);
+console.log("Scene children:", scene.children);
+
+const light = new THREE.AmbientLight(0xffffff); // white light
+scene.add(light);
+
+const geometry = new THREE.BoxGeometry();
+const material = new THREE.MeshBasicMaterial({ color: 0xff0000 });
+const cube = new THREE.Mesh(geometry, material);
+scene.add(cube);
