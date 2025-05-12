@@ -38,7 +38,7 @@ const paintings = [\
     name: "painting1",\
     file: "assets/painting1.jpg",\
     position: [-6, 5, -9.9],\
-    title: "Sunset Glow",\
+    title: "Athena",\
     medium: "Acrylic on canvas",\
     year: "2023"\
   \},\
@@ -46,17 +46,17 @@ const paintings = [\
     name: "painting2",\
     file: "assets/painting2.jpg",\
     position: [0, 5, -9.9],\
-    title: "Dreamscape",\
-    medium: "Oil on wood",\
-    year: "2022"\
+    title: "Lilies: Commission Work",\
+    medium: "Acrylic on canvas",\
+    year: "2024"\
   \},\
   \{\
     name: "painting3",\
     file: "assets/painting3.jpg",\
     position: [6, 5, -9.9],\
-    title: "Silent Blue",\
-    medium: "Watercolor on paper",\
-    year: "2021"\
+    title: "Radha Krishna",\
+    medium: "Acrylic on canvas",\
+    year: "2022"\
   \}\
 ];\
 \
