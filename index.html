@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Test Scene</title>
-    <style>
-      body { margin: 0; overflow: hidden; }
-      canvas { display: block; }
-    </style>
-  </head>
-  <body>
-    <div class="info-box" id="info"></div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r148/three.min.js"></script>
-    <script src="main.js"></script>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VR Bedroom Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="container">
+        <canvas id="vr-canvas"></canvas>
+        <div id="instructions">
+            <p>Use mouse or touch drag to look around.</p>
+            <p>Click paintings to zoom & read.</p>
+            <p>Click sketchbook on desk to open.</p>
+            <p>Laptop plays animation.</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
 </html>
